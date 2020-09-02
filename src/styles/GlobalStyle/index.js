@@ -13,6 +13,10 @@ const GlobalStyle = createGlobalStyle`
 	*:after {
  		box-sizing: inherit;
 	}
+	p {
+		margin: 0;
+		padding: 0;
+	}
 `;
 
 export default GlobalStyle;

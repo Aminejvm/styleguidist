@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 const Button = styled.button`
   padding: 1rem 2rem;
   min-width: 100px;
+  width: fit-content;
 
   font-size: 1rem;
   font-weight: 600;
@@ -30,7 +31,8 @@ const Button = styled.button`
 `;
 
 Button.propTypes = {
-  /** Size of the pbuton */
+  // Note(Amine): Testing if styleguide supports proptypes.
+  /** Size of the button*/
   size: PropTypes.string.isRequired,
 };
 
