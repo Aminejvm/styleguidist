@@ -11,4 +11,5 @@ Box.propTypes = {
   ...propType.space,
 };
 
+/** @component */
 export default Box;
