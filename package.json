@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguidist": "cross-env NODE_ENV=development npx styleguidist server",
+    "styleguidist-build": "cross-env NODE_ENV=development npx styleguidist build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +37,9 @@
   },
   "devDependencies": {
     "@styled-system/prop-types": "^5.1.5",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "prop-types": "^15.7.2",
     "react-styleguidist": "^11.0.8"
   }
 }
