@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Box width={{ xd: 100, lg: 500 }} height={100} backgroundColor="red" />
+        <Box width={{ xd: 100, lg: 500 }} height={100} backgroundColor="green" />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js is here</code> and save to reload.
